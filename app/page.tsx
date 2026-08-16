@@ -75,8 +75,8 @@ export default function Home() {
       <section className="hero wrap" id="top">
         <div className="hero-copy">
           <span className="eyebrow">HR GENERALIST · ОТКРЫТА К ПРОЕКТАМ</span>
-          <h1>Успех определяют люди</h1>
-          <p className="lede">Я Анна Миро.<br />HR generalist с психологическим образованием, IT-бэкграундом и предпринимательским опытом.</p>
+          <h1>Анна <em>Миро</em></h1>
+          <p className="lede">HR generalist с психологическим образованием, IT-бэкграундом и предпринимательским опытом.</p>
           <div className="hero-actions">
             <a className="button primary" href="https://t.me/ann_miro" target="_blank" rel="noreferrer">Обсудить задачу <span>↗</span></a>
             <a className="button ghost" href="#why">Почему я? ↓</a>
@@ -102,7 +102,7 @@ export default function Home() {
       <section className="why wrap section-pad" id="why">
         <div className="section-kicker">ПОЧЕМУ Я</div>
         <div className="why-heading">
-          <h2>Понимаю человека и бизнес</h2>
+          <h2>Понимаю и человека, и бизнес</h2>
           <p>Мой нетипичный путь — главное преимущество. Я была по обе стороны найма: строила продукты, нанимала команды и отвечала за деньги.</p>
         </div>
         <div className="why-grid">
@@ -116,7 +116,7 @@ export default function Home() {
       <section className="experience section-pad" id="experience">
         <div className="wrap">
           <div className="section-kicker light">ОПЫТ · 2006—2026</div>
-          <div className="experience-title"><h2>Играла много ролей, развивая навык — <em>создавать.</em></h2><p>В некоторых проектах я напрямую занималась наймом. Во всех — выстраивала процессы и собирала людей вокруг результата.</p></div>
+          <div className="experience-title"><h2>Играла много ролей, развивая навык — <em>создавать.</em></h2><p>В некоторых проектах я напрямую занималась наймом. Во всех — выстраивала процессы.</p></div>
           <div className="experience-grid">
             {experience.map((item) => (
               <article className={`experience-card ${item.tone}`} key={item.role}>
