@@ -173,7 +173,6 @@ export default function Home() {
           <span className="cta-star">✦</span>
           <h2>Ищете человека, который соберет <em>команду под вас?</em></h2>
           <a className="button primary big" href="https://t.me/ann_miro" target="_blank" rel="noreferrer">Напишите мне в Telegram <span>↗</span></a>
-          <p>Расскажите о задаче.</p>
         </div>
       </section>
 
