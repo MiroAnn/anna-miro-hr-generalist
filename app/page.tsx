@@ -84,7 +84,7 @@ export default function Home() {
         </div>
         <div className="portrait-wrap">
           <div className="portrait-sun" aria-hidden="true"></div>
-          <img className="portrait" src="/anna-miro.webp" alt="Анна Миро — HR generalist" />
+          <img className="portrait" src="/anna-miro-hero.jpg" alt="Анна Миро — HR generalist" />
           <div className="portrait-note">Психология <span>×</span><br />продукт <span>×</span> бизнес</div>
           <div className="portrait-sticker">20 лет<br />практики</div>
         </div>
@@ -153,7 +153,7 @@ export default function Home() {
       <section className="about section-pad" id="about">
         <div className="wrap about-grid">
           <div className="about-portrait">
-            <img src="/anna-miro.webp" alt="Портрет Анны Миро" />
+            <img src="/anna-miro-about.jpg" alt="Анна Миро в горах" />
             <div className="scribble">Суперсила — любопытство</div>
           </div>
           <div className="about-copy">
