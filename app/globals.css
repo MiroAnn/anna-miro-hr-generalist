@@ -92,7 +92,7 @@ blockquote { margin:0 0 10px; font-family:Georgia,serif; font-size:28px; line-he
   .section-pad { padding-block:84px; }.why-heading,.experience-title,.process-intro,.about-grid { grid-template-columns:1fr; gap:34px; }.why-grid,.experience-grid { grid-template-columns:1fr; }
   .why-grid article { min-height:230px; }.experience-card { min-height:320px; }
   .funnel-step { grid-template-columns:70px 1fr; }.funnel-step p { grid-column:2; }.process-note { flex-direction:column; }
-  .about-portrait { min-height:560px; width:90%; }.scribble{right:-8%}.footer span:nth-child(2){display:none}
+  .about-portrait { min-height:560px; width:90%; }.scribble{right:-8%}
 }
 @media (max-width: 480px) {
   .nav-cta { padding:10px 13px; }.hero { min-height:auto; }.hero-actions { flex-direction:column; align-items:stretch; }.button { width:100%; }
