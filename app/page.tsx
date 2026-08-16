@@ -54,7 +54,7 @@ const funnel = [
   ["02", "Определяю профиль", "Вместе с нанимающим менеджером определяю задачи, качества, психопортрет и критерии успеха."],
   ["03", "Проектирую воронку", "В воронке чаще всего предварительные короткие испытания, которые проверяют на базовом уровне необходимые качества (определили выше) и вайб. Это чаще всего анкета и видео — кружочек в Telegram, например."],
   ["04", "Отбираю по качествам", "При необходимости провожу 15–20 минутное интервью, записываю его и передаю менеджеру."],
-  ["05", "Показываю команде", "Лучшие кандидаты проходят короткое интервью с нанимающим менеджером и знакомятся с командой."],
+  ["05", "Показываю команде", "Лучшие кандидаты проходят короткое интервью с нанимающим менеджером и знакомятся с командой. По опыту их проводят максимум максимум 3–4, чтобы закрыть вакансию."],
   ["06", "Проверяю в деле", "1–2 финалиста выполняют короткое реальное, чаще всего оплачиваемое, тестовое задание."],
   ["07", "Делаю офер", "Провожу финальную встречу с командой, сверяю взаимные ожидания и делаю офер."],
 ];
@@ -75,8 +75,8 @@ export default function Home() {
       <section className="hero wrap" id="top">
         <div className="hero-copy">
           <span className="eyebrow">HR GENERALIST · ОТКРЫТА К ПРОЕКТАМ</span>
-          <h1>Успех определяют люди.</h1>
-          <p className="lede">Я Анна Миро.<br />HR generalist с психологическим образованием, IT-бэкграундом, предпринимательским опытом.</p>
+          <h1>Успех определяют люди</h1>
+          <p className="lede">Я Анна Миро.<br />HR generalist с психологическим образованием, IT-бэкграундом и предпринимательским опытом.</p>
           <div className="hero-actions">
             <a className="button primary" href="https://t.me/ann_miro" target="_blank" rel="noreferrer">Обсудить задачу <span>↗</span></a>
             <a className="button ghost" href="#why">Почему я? ↓</a>
@@ -116,7 +116,7 @@ export default function Home() {
       <section className="experience section-pad" id="experience">
         <div className="wrap">
           <div className="section-kicker light">ОПЫТ · 2006—2026</div>
-          <div className="experience-title"><h2>Много ролей.<br />Один навык —<br /><em>создавать.</em></h2><p>В некоторых проектах я напрямую занималась наймом. Во всех — выстраивала процессы и собирала людей вокруг результата.</p></div>
+          <div className="experience-title"><h2>Играла много ролей, развивая навык — <em>создавать.</em></h2><p>В некоторых проектах я напрямую занималась наймом. Во всех — выстраивала процессы и собирала людей вокруг результата.</p></div>
           <div className="experience-grid">
             {experience.map((item) => (
               <article className={`experience-card ${item.tone}`} key={item.role}>
@@ -147,14 +147,14 @@ export default function Home() {
             </article>
           ))}
         </div>
-        <div className="process-note"><strong>Вместо двух собеседований с HR и часа с нанимающим — анкета и короткое видео.</strong><span>По ним очень много чего понятно и помогает не тратить время на собесы неподходящих людей. Экономим часы времени.</span></div>
+        <div className="process-note"><strong>Вместо первых двух собеседований: с HR и с нанимающим — анкета и короткое видео.</strong><span>По ним очень много чего понятно и помогает не тратить время на собесы неподходящих людей. Экономим часы времени.</span></div>
       </section>
 
       <section className="about section-pad" id="about">
         <div className="wrap about-grid">
           <div className="about-portrait">
             <img src="/anna-miro.webp" alt="Портрет Анны Миро" />
-            <div className="scribble">Любопытство —<br />моя суперсила</div>
+            <div className="scribble">Суперсила — любопытство</div>
           </div>
           <div className="about-copy">
             <div className="section-kicker light">ОБО МНЕ — ОБРАЗОВАНИЕ</div>
