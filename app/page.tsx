@@ -63,7 +63,7 @@ export default function Home() {
   return (
     <main>
       <nav className="nav wrap" aria-label="Основная навигация">
-        <a className="wordmark" href="#top">АННА МИРО</a>
+        <a className="wordmark" href="#top">HR</a>
         <div className="nav-links">
           <a href="#experience">Опыт</a>
           <a href="#process">Процесс</a>
