@@ -1,35 +1,41 @@
 const experience = [
   {
+    icon: "A+",
     role: "CEO двух онлайн-школ",
     text: "Работаю с двумя философами — преподавателями вузов. Выстроила маркетинговые и операционные процессы для оборота 1 млн ₽ в месяц.",
     hire: "Наняла 2 помощников",
     tone: "calm-blue",
   },
   {
+    icon: "◎",
     role: "Рекрутер",
     text: "Закрыла четыре вакансии для вилл Masbro на Бали по своему методу быстрого найма.",
     hire: "Наняла 4 сотрудников",
     tone: "pink",
   },
   {
+    icon: "↗",
     role: "Трекер и коуч",
     text: "Помогла 100+ командам ускориться на пути к деньгам. Для стартапа Rejoin закрыла ключевые позиции.",
     hire: "Наняла продакта, дизайнера и сейлза",
     tone: "orange",
   },
   {
+    icon: "↯",
     role: "Основатель и CEO стартапа",
     text: "Запустила платформу для создания терапевтических ботов и продала созданный на ней проект Газпром нефти.",
     hire: "Собрала команду из 5 человек",
     tone: "violet",
   },
   {
+    icon: "▦",
     role: "Product manager",
     text: "Запустила «Манго Страхование» с нуля за 9 месяцев — самый быстрый запуск страховой компании в мире на тот момент.",
-    hire: "Нанимала junior PM, дизайнеров и разработчиков",
+    hire: "Нанимала junior PM",
     tone: "yellow",
   },
   {
+    icon: "</>",
     role: "Основатель и CEO веб-студии",
     text: "Выпустила 40+ веб-продуктов для Росатома, Beluga и других компаний в рамках собственной студии и frontend-агентства.",
     hire: "Наняла 3 разработчиков и 2 дизайнеров",
@@ -103,6 +109,7 @@ export default function Home() {
           <div className="experience-grid">
             {experience.map((item) => (
               <article className={`experience-card ${item.tone}`} key={item.role}>
+                <span className="card-icon" aria-hidden="true">{item.icon}</span>
                 <h3>{item.role}</h3>
                 <p>{item.text}</p>
                 <div className="hire">↳ {item.hire}</div>
