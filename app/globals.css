@@ -62,8 +62,7 @@ h1 em,h2 em { font-family:Georgia,serif; font-weight:400; }
 blockquote { margin:0 0 10px; font-family:Georgia,serif; font-size:28px; line-height:1.25; font-style:italic; border-left:10px solid var(--pink); padding-left:28px; }
 .funnel { border-top:1.5px solid var(--ink); }
 .funnel-step { display:grid; grid-template-columns:90px 1fr 1fr; gap:28px; padding:30px 0; border-bottom:1.5px solid var(--ink); align-items:start; }
-.step-number { width:52px; height:52px; display:grid; place-items:center; border:1.5px solid var(--ink); border-radius:50%; font-weight:900; font-size:12px; }
-.funnel-step:nth-child(2n) .step-number { background:var(--pink); }.funnel-step:nth-child(3n) .step-number { background:var(--calm-blue); }
+.step-number { width:52px; height:52px; display:grid; place-items:center; border:1.5px solid var(--ink); border-radius:50%; background:var(--calm-blue); font-weight:900; font-size:12px; }
 .funnel h3 { font-size:25px; margin:11px 0 0; }.funnel p { line-height:1.55; margin:7px 0 0; max-width:490px; }
 .process-note { margin-top:46px; background:var(--orange); color:white; padding:30px 38px; display:flex; justify-content:space-between; gap:20px; transform:rotate(-.4deg); font-size:17px; }
 .about { background:#6646d8; color:white; overflow:hidden; }
