@@ -116,7 +116,7 @@ export default function Home() {
       <section className="experience section-pad" id="experience">
         <div className="wrap">
           <div className="section-kicker light">ОПЫТ · 2006—2026</div>
-          <div className="experience-title"><h2>Играла много ролей, развивая навык — <em>зарабатывать.</em></h2><p>В некоторых проектах я напрямую занималась наймом. Во всех — выстраивала процессы.</p></div>
+          <div className="experience-title"><h2>Играла разные роли, развивая навык — <em>зарабатывать</em></h2><p>В некоторых проектах я напрямую занималась наймом. Во всех — выстраивала процессы.</p></div>
           <div className="experience-grid">
             {experience.map((item) => (
               <article className={`experience-card ${item.tone}`} key={item.role}>
