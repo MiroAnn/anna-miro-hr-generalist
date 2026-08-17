@@ -147,7 +147,7 @@ export default function Home() {
           </div>
           <div className="about-copy">
             <div className="section-kicker light">ОБО МНЕ — ОБРАЗОВАНИЕ</div>
-            <h2>Училась понимать <em>людей</em></h2>
+            <h2>Училась понимать <em>людей и бизнес</em></h2>
             <div className="education">
               <div><span>2012</span><p><strong>Алтайский государственный университет</strong><br />Журналистика, специалитет</p></div>
               <div><span>2023</span><p><strong>НИУ ВШЭ</strong><br />Психоанализ и психоаналитическое бизнес-консультирование, магистратура</p></div>
