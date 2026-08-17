@@ -123,7 +123,7 @@ export default function Home() {
         <div className="process-intro">
           <div>
             <div className="section-kicker">МОЙ ПРОЦЕСС</div>
-            <h2>Найм за <span>4</span><br />собеседования</h2>
+            <h2>Нанимаю быстро</h2>
           </div>
           <blockquote>«Меньше усталости в команде. Выше скорость найма.»</blockquote>
         </div>
