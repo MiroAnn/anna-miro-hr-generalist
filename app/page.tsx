@@ -85,7 +85,7 @@ export default function Home() {
       </section>
 
       <section className="stats" aria-label="Ключевые показатели">
-        <div className="wrap stats-single"><strong>Закрыла больше 10 вакансий</strong></div>
+        <div className="wrap stats-single"><strong>Закрыла около 20 вакансий</strong></div>
       </section>
 
       <section className="why wrap section-pad" id="why">
