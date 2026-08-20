@@ -53,6 +53,8 @@ h1 em,h2 em { font-family:Georgia,serif; font-weight:400; }
 .experience-title h2 em { color:var(--calm-blue); }
 .experience-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }
 .experience-card { color:var(--ink); min-height:280px; padding:32px; display:flex; flex-direction:column; border-radius:4px; }
+.card-top { display:flex; align-items:flex-start; justify-content:space-between; gap:20px; }
+.card-period { font-size:12px; line-height:1.2; font-weight:900; letter-spacing:.04em; text-transform:uppercase; text-align:right; }
 .experience-card.calm-blue{background:var(--calm-blue)}.experience-card.pink{background:var(--pink)}.experience-card.blue{background:var(--blue)}.experience-card.orange{background:#ff825c}.experience-card.violet{background:#c4a7ff}.experience-card.yellow{background:#ffe55b}.experience-card.mint{background:#8ee9c1}.experience-card.peach{background:#ffc5a1}
 .experience-card h3 { font-size:34px; letter-spacing:-.04em; line-height:1; margin:24px 0 18px; max-width:430px; }
 .experience-card p { line-height:1.5; font-size:16px; max-width:460px; }
